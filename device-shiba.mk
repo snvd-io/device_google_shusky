@@ -402,3 +402,5 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 PRODUCT_PACKAGES += \
     NfcOverlayShiba
+
+PRODUCT_VENDOR_PROPERTIES := $(filter-out ro.vendor.build.svn=% , $(PRODUCT_VENDOR_PROPERTIES))
