@@ -396,7 +396,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Increment the SVN for any official public releases
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.vendor.build.svn=27
+    ro.vendor.build.svn=32
 
 # WLC userdebug specific
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
@@ -472,3 +472,4 @@ $(call inherit-product-if-exists, device/google/common/etm/device-userdebug-modu
 endif
 
 PRODUCT_NO_BIONIC_PAGE_SIZE_MACRO := true
+PRODUCT_CHECK_PREBUILT_MAX_PAGE_SIZE := true
