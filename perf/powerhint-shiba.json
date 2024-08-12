@@ -315,7 +315,7 @@
       "Name": "CAMUClampBoost",
       "Path": "/proc/vendor_sched/groups/cam/uclamp_min",
       "Values": [
-        "765",
+        "720",
         "250",
         "0"
       ],
@@ -1377,7 +1377,7 @@
       "PowerHint": "CAMERA_LAUNCH",
       "Node": "CAMUClampBoost",
       "Duration": 1000,
-      "Value": "765"
+      "Value": "720"
     },
     {
       "PowerHint": "CAMERA_LAUNCH",
@@ -1491,7 +1491,7 @@
       "PowerHint": "CAMERA_SHOT",
       "Node": "CAMUClampBoost",
       "Duration": 100,
-      "Value": "765"
+      "Value": "720"
     },
     {
       "PowerHint": "CAMERA_BACKEND_BOOST",
