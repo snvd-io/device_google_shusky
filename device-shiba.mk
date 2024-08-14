@@ -383,7 +383,7 @@ ifdef RELEASE_SVN_SHIBA
 TARGET_SVN ?= $(RELEASE_SVN_SHIBA)
 else
 # Set this for older releases that don't use build flag
-TARGET_SVN ?= 36
+TARGET_SVN ?= 37
 endif
 
 PRODUCT_VENDOR_PROPERTIES += \
