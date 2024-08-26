@@ -478,3 +478,5 @@ PRODUCT_PACKAGES += \
     AvoidAppsInCutoutOverlay
 
 PRODUCT_VENDOR_PROPERTIES := $(filter-out ro.vendor.build.svn=% , $(PRODUCT_VENDOR_PROPERTIES))
+
+PRODUCT_PACKAGES += fir-proximity-feature.xml
