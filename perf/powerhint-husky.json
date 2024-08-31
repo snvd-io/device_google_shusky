@@ -118,7 +118,7 @@
       "Path": "/sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq",
       "Values": [
         "9999999",
-        "2253000",
+        "2245000",
         "2130000",
         "910000",
         "1328000",
@@ -134,7 +134,7 @@
       "Path": "/sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq",
       "Values": [
         "9999999",
-        "2253000",
+        "2245000",
         "2130000",
         "1836000",
         "0"
@@ -158,9 +158,8 @@
       "Path": "/sys/devices/system/cpu/cpu8/cpufreq/scaling_max_freq",
       "Values": [
         "9999999",
-        "2704000",
-        "2507000",
-        "2252000",
+        "2687000",
+        "2147000",
         "1298000",
         "1557000",
         "1745000",
@@ -175,9 +174,9 @@
       "Path": "/sys/devices/system/cpu/cpu8/cpufreq/scaling_min_freq",
       "Values": [
         "9999999",
-        "2704000",
-        "2507000",
-        "2252000",
+        "2687000",
+        "2363000",
+        "2147000",
         "1885000",
         "0"
       ],
@@ -1531,13 +1530,13 @@
       "PowerHint": "GCA_CAMERA_SHOT_BIGCPU_RANK1",
       "Node": "CPUBigClusterMaxFreq",
       "Duration": 3000,
-      "Value": "2704000"
+      "Value": "2687000"
     },
     {
       "PowerHint": "GCA_CAMERA_SHOT_BIGCPU_RANK1",
       "Node": "CPUBigClusterMinFreq",
       "Duration": 3000,
-      "Value": "2704000"
+      "Value": "2687000"
     },
     {
       "PowerHint": "GCA_CAMERA_SHOT_BIGCPU_RANK2",
@@ -1549,13 +1548,13 @@
       "PowerHint": "GCA_CAMERA_SHOT_BIGCPU_RANK2",
       "Node": "CPUBigClusterMaxFreq",
       "Duration": 3000,
-      "Value": "2507000"
+      "Value": "2363000"
     },
     {
       "PowerHint": "GCA_CAMERA_SHOT_BIGCPU_RANK2",
       "Node": "CPUBigClusterMinFreq",
       "Duration": 3000,
-      "Value": "2507000"
+      "Value": "2363000"
     },
     {
       "PowerHint": "GCA_CAMERA_SHOT_BIGCPU_RANK3",
@@ -1567,13 +1566,13 @@
       "PowerHint": "GCA_CAMERA_SHOT_BIGCPU_RANK3",
       "Node": "CPUBigClusterMaxFreq",
       "Duration": 3000,
-      "Value": "2252000"
+      "Value": "2147000"
     },
     {
       "PowerHint": "GCA_CAMERA_SHOT_BIGCPU_RANK3",
       "Node": "CPUBigClusterMinFreq",
       "Duration": 3000,
-      "Value": "2252000"
+      "Value": "2147000"
     },
     {
       "PowerHint": "GCA_CAMERA_SHOT_MIDCPU_RANK1",
@@ -1591,13 +1590,13 @@
       "PowerHint": "GCA_CAMERA_SHOT_MIDCPU_RANK2",
       "Node": "CPUMidClusterMaxFreq",
       "Duration": 3000,
-      "Value": "2253000"
+      "Value": "2245000"
     },
     {
       "PowerHint": "GCA_CAMERA_SHOT_MIDCPU_RANK2",
       "Node": "CPUMidClusterMinFreq",
       "Duration": 3000,
-      "Value": "2253000"
+      "Value": "2245000"
     },
     {
       "PowerHint": "GCA_CAMERA_SHOT_MIDCPU_RANK3",
